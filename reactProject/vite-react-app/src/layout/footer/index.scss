@@ -1,0 +1,48 @@
+footer {
+  background-color: black;
+  .footer {
+    color: white;
+    .infos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+    .bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .subs {
+        width: 50%;
+        input {
+          padding: 10px;
+          outline: none;
+          // width: 100%;
+        }
+        button {
+          background-color: rgb(28, 76, 146);
+          color: white;
+        }
+      }
+      .icons{
+        display: flex;
+        gap: 10px;
+        .icon{
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: white;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
